@@ -76,7 +76,7 @@ span i {
   .part {
     display: block;
     margin: 90px;
-    width: 60%;
+    /* width: 60%; */
   }
   .part p {
     font-size: 40px;
@@ -100,6 +100,45 @@ span i {
   }
   span i {
     font-size: 25px;
+  }
+  button {
+    font-size: 23px;
+    padding: 20px 55px;
+    margin-top: 120px;
+  }
+}
+@media screen and (max-width: 420px) {
+  .part {
+    display: block;
+    /* margin: 90px; */
+    width: 90%;
+    margin-left: 20px;
+  }
+  .part p {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .part h1 {
+    font-size: 30px;
+    margin-top: 20px;
+  }
+  .part-1 {
+    width: 100%;
+  }
+  .part-2 {
+    width: 100%;
+  }
+  .part-3 {
+    width: 100%;
+  }
+  span {
+    height: 45px;
+    width: 12%;
+  }
+  span i {
+    font-size: 45px;
+    margin-left: 10px;
+    margin-top: -8px;
   }
   button {
     font-size: 23px;
